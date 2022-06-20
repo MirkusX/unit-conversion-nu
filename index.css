@@ -1,6 +1,7 @@
 body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 #user-input {
@@ -15,7 +16,6 @@ body {
 button {
     background-color: white;
     border: none;
-    max-width: 80px;
     padding: 10px 15px;
     margin-top: 1em;
     font-weight: bold;
@@ -23,11 +23,12 @@ button {
     background-color: #ffff;
     border: none;
     border-radius: 5px;
+    text-align: center;
 }
 
 #input {
     padding: 5px 10px;
-    max-width: 80px;
+    max-width: 85px;
     font-size: 3em;
     box-sizing: border-box;
     border-radius: 5px;
@@ -44,4 +45,8 @@ input::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
 h2 {
     font-size: medium;
     margin-top: 5em;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
 }
